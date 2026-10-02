@@ -1383,29 +1383,7 @@ export default function PortfolioView({
         </div>
       </footer>
 
-      {/* Floating Admin Button */}
-      <div style={{ position: 'fixed', bottom: '20px', right: '20px', zIndex: 9999 }}>
-        <Link
-          href="/admin"
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '6px',
-            background: 'rgba(17,17,17,0.85)',
-            backdropFilter: 'blur(10px)',
-            color: '#fff',
-            padding: '8px 14px',
-            borderRadius: '40px',
-            fontSize: '12px',
-            fontWeight: 600,
-            boxShadow: '0 4px 20px rgba(0,0,0,0.25)',
-            border: '1px solid rgba(255,255,255,0.15)',
-            transition: 'transform 0.2s',
-          }}
-        >
-          ⚙️ Admin Panel
-        </Link>
-      </div>
+      
     </>
   );
 }
